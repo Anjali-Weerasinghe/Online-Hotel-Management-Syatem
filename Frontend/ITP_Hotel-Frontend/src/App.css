@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.home,.managesupplier,.manegepurchasedi
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*.footer { 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+*/
+.attendtable {
+  border-collapse: collapse;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 25px;
+  font-size:1.1em;
+  min-width: 450px;
+ }
+ .attendtable thead tr{
+   /* background-color: #969090; */
+   background: linear-gradient(
+    90deg,
+    rgb(190, 167, 63) 0%,
+    rgb(207, 201, 201) 100%
+  );
+
+   color:#ffffff;
+   text-align: left;
+   font-weight: bold;
+ }
+ .attendtable th,
+ .attendtable td{
+   padding: 12px 15px;
+
+ }
+ .textcenter{
+   margin-left: 20%;
+ }
+.attendtable tbody tr{
+     border-bottom: 1px solid #dddddd;
+}
+.attendtable tbody tr:nth-of-type(even){
+     background-color: #f3f3f3;
+
+}
+.attendtable tbody tr:last-of-type{
+     border-bottom: 2px solid #969090;
+}
+
+.css{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.tableheading {
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: ' Calibri';
+  font-weight: bold;
+  width: 790px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  margin-top: 30px;
+  margin-left: 150px;
+  color: rgb(36, 23, 23);
+  background: linear-gradient(
+      90deg,
+      rgb(190, 167, 63) 0%,
+      rgb(207, 201, 201) 100%
+    );
+}
+.forminputbtn1 {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right:15px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(197, 161, 60) 0%,
+    rgb(190, 167, 63) 100%
+  );
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+.addbutton {
+  width: 200px;
+  height: 35px;
+  margin-top: 10px;
+  margin-right:15px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(250, 32, 32) 0%,
+    rgb(233, 106, 106) 100%
+  );
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.addbutton:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(189, 28, 28) 0%,
+    rgb(199, 4, 4) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+.forminputbtn1:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(221, 147, 9) 0%,
+    rgb(216, 163, 48) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+.forminputbtn2 {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(250, 32, 32) 0%,
+    rgb(233, 106, 106) 100%
+  );
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.forminputbtn2:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(189, 28, 28) 0%,
+    rgb(199, 4, 4) 100%
+  );
+  transition: all 0.4s ease-out;
+}
